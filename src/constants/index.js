@@ -1,5 +1,5 @@
 import {
-  backend, carrent, creator, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs,
+  backend, carrent, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs,
   redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
 } from "../assets";
 
@@ -20,7 +20,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
@@ -28,12 +28,8 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Wordpress Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
