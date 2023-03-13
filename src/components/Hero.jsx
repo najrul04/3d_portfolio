@@ -15,10 +15,6 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Najrul</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>React Developer </p>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Button
-          </button>
-          {/* <button type="button" href={Resume} className='btn text-white cursor-pointer'>Download Resume</button> */}
         </div>
         
       </div>

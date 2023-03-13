@@ -2,6 +2,7 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
 
+import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
@@ -120,14 +121,20 @@ const Contact = () => {
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
-          </label>
-
+          </label>            
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary grid justify-items-start'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <div className="flex justify-center ">
+          <a className="mx-2 text-2xl hover:bg-cyan-400" href="https://www.linkedin.com/in/najrul-islam/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+
+        <a className="mx-2 text-2xl hover:bg-stone-700 rounded-lg" href="https://github.com/najrul04" target="_blank" rel="noreferrer"><BsGithub/></a>
+        
+        <a className="mx-2 text-2xl hover:bg-red-600 rounded-lg" href="https://www.instagram.com/nazrul_i04/?hl=en" target="_blank" rel="noreferrer"><BsInstagram/></a>
+          </div>
         </form>
       </motion.div>
 
