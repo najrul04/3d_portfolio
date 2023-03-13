@@ -1,6 +1,5 @@
 import {
-  backend, carrent, css, docker, figma, git, html, javascript, jobit, meta, mongodb, nodejs, reactjs,
-  redux, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
+  backend, bike, css, ecommerce, figma, game, git, hospital, html, javascript, meta, mongodb, nextjs, nodejs, pizza, reactjs, redux, starbucks, tailwind, tesla, threejs, typescript, web
 } from "../assets";
 
 export const navLinks = [
@@ -47,6 +46,10 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -63,8 +66,8 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Node JS",
@@ -85,10 +88,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -168,25 +167,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ecommerce (Demo)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Ecommerce website that allows user to click and select particular product on order. It is also deletable and the price with shipping tax cost included to the Grand Total.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "React Router",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/najrul04/firebase_recap/tree/main/ECommerce-with-router",
   },
   {
     name: "Job IT",
@@ -206,7 +205,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: game,
     source_code_link: "https://github.com/",
   },
   {
@@ -227,7 +226,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: pizza,
     source_code_link: "https://github.com/",
   },
   {
@@ -248,7 +247,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: hospital,
     source_code_link: "https://github.com/",
   },
   {
@@ -269,30 +268,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bike,
     source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
