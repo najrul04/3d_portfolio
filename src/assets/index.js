@@ -1,9 +1,7 @@
 import close from "./close.svg";
-import creator from "./creator.png";
 import github from "./github.png";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
-import mobile from "./mobile.png";
 import react from "./react.png";
 import web from "./web.png";
 import wordpress from "./wordpress.png";
@@ -24,7 +22,6 @@ import typescript from "./tech/typescript.png";
 
 import invent from "./company/invent.jpg";
 import phero from "./company/phero.jpg";
-import shopify from "./company/shopify.png";
 import vectorDesign from "./company/vectorDesign.jpg";
 
 import bike from "./bike.gif";
@@ -37,8 +34,6 @@ import pizza from "./pizza.gif";
 export {
   logo,
   wordpress,
-  creator,
-  mobile,
   react,
   github,
   menu,
@@ -58,7 +53,6 @@ export {
   typescript,
   threejs,
   phero,
-  shopify,
   invent,
   vectorDesign,
   ecommerce,
