@@ -1,11 +1,12 @@
-import backend from "./backend.png";
 import close from "./close.svg";
 import creator from "./creator.png";
 import github from "./github.png";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 import mobile from "./mobile.png";
+import react from "./react.png";
 import web from "./web.png";
+import wordpress from "./wordpress.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -21,10 +22,10 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png";
 
-import meta from "./company/meta.jpg";
+import invent from "./company/invent.jpg";
+import phero from "./company/phero.jpg";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.jpg";
-import tesla from "./company/tesla.jpg";
+import vectorDesign from "./company/vectorDesign.jpg";
 
 import bike from "./bike.gif";
 import ecommerce from "./ecommerce.gif";
@@ -35,14 +36,15 @@ import pizza from "./pizza.gif";
 
 export {
   logo,
-  backend,
+  wordpress,
   creator,
   mobile,
-  web,
+  react,
   github,
   menu,
   close,
   css,
+  web,
   nextjs,
   figma,
   git,
@@ -55,10 +57,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  phero,
   shopify,
-  starbucks,
-  tesla,
+  invent,
+  vectorDesign,
   ecommerce,
   game,
   pizza,

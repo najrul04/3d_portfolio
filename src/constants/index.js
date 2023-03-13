@@ -1,6 +1,4 @@
-import {
-  backend, bike, css, ecommerce, figma, game, git, hospital, html, javascript, meta, mongodb, nextjs, nodejs, pizza, reactjs, redux, starbucks, tailwind, tesla, threejs, typescript, web
-} from "../assets";
+import { bike, css, ecommerce, figma, game, git, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
 
 export const navLinks = [
   {
@@ -28,11 +26,11 @@ export const navLinks = [
 const services = [
   {
     title: "React Developer",
-    icon: web,
+    icon: reactjs,
   },
   {
     title: "Wordpress Developer",
-    icon: backend,
+    icon: wordpress,
   },
 ];
 
@@ -95,7 +93,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Invent",
-    icon: starbucks,
+    icon: invent,
     iconBg: "#383E56",
     date: "January 2023 - PRESENT",
     points: [
@@ -110,7 +108,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Vector Design US, Inc.",
-    icon: tesla,
+    icon: vectorDesign,
     iconBg: "#E6DEDD",
     date: "January 2022 - December 2022",
     points: [
@@ -125,7 +123,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Programming Hero",
-    icon: meta,
+    icon: phero,
     iconBg: "#E6DEDD",
     date: "June 2021 - November 2021",
     points: [
@@ -172,7 +170,7 @@ const projects = [
       "Ecommerce website that allows user to click and select particular product on order. It is also deletable and the price with shipping tax cost included to the Grand Total.",
     tags: [
       {
-        name: "React",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
@@ -186,90 +184,95 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/najrul04/firebase_recap/tree/main/ECommerce-with-router",
+    website_link: "https://ecommerce-79009.firebaseapp.com/"
   },
   {
-    name: "Job IT",
+    name: "Game Info",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: game,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/najrul04/react_recap/tree/main/car-services",
+    website_link: "https://games-mart.web.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Pizza Order",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "React Router",
         color: "pink-text-gradient",
       },
     ],
     image: pizza,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/najrul04/pizza-delivery-server-side",
+    website_link: "https://pizza-delivery-ea5ce.web.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Hospital",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
     image: hospital,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/najrul04/healthcare-website",
+    website_link: "https://gen-hospital.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Bike",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Express JS",
         color: "pink-text-gradient",
       },
     ],
     image: bike,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/najrul04/bike-website-client-side",
+    website_link: "https://best-bike.web.app/"
   }
 ];
 
