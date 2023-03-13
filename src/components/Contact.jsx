@@ -40,6 +40,7 @@ const Contact = () => {
         // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         'service_eacbuck',
+        'template_sd270ae',
 
         {
           from_name: form.name,
@@ -50,7 +51,6 @@ const Contact = () => {
         },
         // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
         'JZRIOMXjgrzL_X9g-',
-        'template_sd270ae',
       )
       .then(
         () => {
