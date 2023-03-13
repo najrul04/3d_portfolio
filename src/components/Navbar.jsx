@@ -26,9 +26,11 @@ const Navbar = () => {
             Najrul &nbsp;
             <span className='sm:block hidden'>| React Developer</span>
           </p>
+          
         </Link>
 
                 <ul className='list-none hidden sm:flex flex-row gap-10'>
+                
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -40,6 +42,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <a href='https://drive.google.com/file/d/1A-CG-vSZKmlQgvYn970Ww0zZHuUeAHZD/view?usp=share_link' target="_blank" className="text-secondary text-[18px] font-medium font-bold hover:text-white">
+            Resume
+          </a>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
