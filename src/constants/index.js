@@ -1,5 +1,5 @@
 import {
-  backend, carrent, css, docker, figma, git, html, javascript, jobit, meta, mobile, mongodb, nodejs, reactjs,
+  backend, carrent, css, docker, figma, git, html, javascript, jobit, meta, mongodb, nodejs, reactjs,
   redux, starbucks, tailwind, tesla, threejs, tripguide, typescript, web
 } from "../assets";
 
@@ -30,10 +30,6 @@ const services = [
   {
     title: "React Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Wordpress Developer",
@@ -113,7 +109,7 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Web Developer",
     company_name: "Vector Design US, Inc.",
     icon: tesla,
     iconBg: "#E6DEDD",

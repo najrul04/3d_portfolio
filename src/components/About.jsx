@@ -37,17 +37,19 @@ const About = () => {
     return (
         <>
         <motion.div variants={textVariant()}>
-            <p className={styles.sectionSubText}>Introduction</p>
-            <h2 className={styles.sectionHeadText}>Overview</h2>
+            <p className={`${styles.sectionSubText} text-center uppercase`}>About Me</p>
+            <h2 className={`${styles.sectionHeadText} text-center`}>Overview</h2>
         </motion.div>
 
+        <div className="flex justify-center text-center">
         <motion.p variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl loading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl loading-[30px] "
         >
         I'm an experienced React developer with a strong foundation in JavaScript, ReactJS, Redux, NextJS, and TailwindCSS. I possess excellent adaptability and can work efficiently in both team and independent work environment, with a strong drive to continuously learn and master emerging technologies.
         </motion.p>
+        </div>
 
-        <div className='mt-20 flex flex-wrap gap-10'>
+        <div className='mt-20 flex flex-wrap justify-center gap-10'>
             {services.map((service, index) => (
                     <ServiceCard key={service.title} index= {index} {...service}/>
                 ))}
