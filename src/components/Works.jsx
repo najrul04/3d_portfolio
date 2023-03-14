@@ -84,7 +84,7 @@ const Works = () => {
     <>
       <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>My work</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText} text-center uppercase`}>Projects</h2>
       </div>
 
       <div className='w-full text-center flex justify-center'>
