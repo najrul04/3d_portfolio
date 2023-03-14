@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import React from "react";
 import Tilt from "react-parallax-tilt";
 
@@ -18,7 +17,7 @@ const ProjectCard = ({
   website_link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -76,25 +75,25 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>My work</p>
         <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
-      </motion.div>
+      </div>
 
       <div className='w-full text-center flex justify-center'>
-        <motion.p
+        <p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           The projects presented herein serve as a testament to my skills and experience, demonstrated through tangible examples of my work in real-world settings. Each project is accompanied by a succinct description, as well as links to both code repositories and live demonstrations. These projects effectively showcase my proficiency in solving intricate problems, my adeptness with a variety of technologies, and my capacity to manage projects with efficiency and efficacy.
-        </motion.p>
+        </p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
