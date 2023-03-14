@@ -138,11 +138,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Very approachable and delivers the work reliably within the timelines maintaining good quality.",
+    name: "Shameh Rahman",
+    designation: "EIT",
+    company: "Syska Hennessy Group",
+    image: "https://media.licdn.com/dms/image/C4E03AQFdzHieupTttQ/profile-displayphoto-shrink_800_800/0/1624848801592?e=1684368000&v=beta&t=kWDiQ2iEc9QYQI3OPrJCTxMc_A15C2lY2B77k_dyWuA",
   },
   {
     testimonial:
@@ -154,11 +154,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Extremely informative, attentive, and knowledgeable. Also very fast and thorough with his work!",
+    name: "Safwan Rahman",
+    designation: "MLS ",
+    company: "Mount Sinai Health System",
+    image: "https://media.licdn.com/dms/image/C4E03AQEpbw3llaiQlA/profile-displayphoto-shrink_200_200/0/1517454841060?e=1684368000&v=beta&t=2DP3NQfJAuUM6O9l7LSbUxvO_K6IvIyZC-9ieqH7K_A",
   },
   
 ];
