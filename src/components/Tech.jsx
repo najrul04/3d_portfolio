@@ -1,14 +1,22 @@
-import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+import React, { useEffect } from "react";
 import { technologies } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { BallCanvas } from "./canvas";
-
 const Tech = () => {
+  
+ useEffect(() => {
+  AOS.init({
+    duration: 1500,
+  });
+}, [])
+
   return (
-   <>
-    <div variants={textVariant()}>
+   <div data-aos="fade-up" whilehover={{scale:1.1}} >
+    <div  data-aos="fade-up" whilehover={{scale:1.1}} variants={textVariant()}>
     <p className={`${styles.sectionSubText} text-center`}>
       Tech I have Learned
     </p>
@@ -25,7 +33,7 @@ const Tech = () => {
         </div>
       ))}
     </div>
-   </>
+   </div>
   );
 };
 

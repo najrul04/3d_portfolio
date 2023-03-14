@@ -1,6 +1,7 @@
-import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+import React, { useEffect } from "react";
 import Tilt from "react-parallax-tilt";
-
 import { github, web } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -16,8 +17,15 @@ const ProjectCard = ({
   source_code_link,
   website_link
 }) => {
+  
+ useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, [])
+
   return (
-    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div data-aos="fade-up" whilehover={{scale:1.1}} variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -82,13 +90,14 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div variants={textVariant()}>
+      <div data-aos="fade-in" whilehover={{scale:1.1}} variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>My work</p>
         <h2 className={`${styles.sectionHeadText} text-center uppercase`}>Projects</h2>
       </div>
 
       <div className='w-full text-center flex justify-center'>
         <p
+         data-aos="fade-in" whilehover={{scale:1.1}}
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
