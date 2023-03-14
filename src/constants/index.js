@@ -189,7 +189,7 @@ const projects = [
   {
     name: "Game Info",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that informs about the most successive and famous games around the world where you also can log in and sign up to have more access.",
     tags: [
       {
         name: "ReactJS",
@@ -211,7 +211,7 @@ const projects = [
   {
     name: "Pizza Order",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A website that has the functionality of Log In and Sign Up. You can also make new order and delete the previous order as it is needed.",
     tags: [
       {
         name: "ReactJS",
@@ -233,7 +233,7 @@ const projects = [
   {
     name: "Hospital",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A hospital MERN stack website that has the feature of various section to informs the traffic  such as about, doctors and others using React Router.",
     tags: [
       {
         name: "ReactJS",
@@ -255,7 +255,7 @@ const projects = [
   {
     name: "Bike",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "MERN Stack website that is consist of the information of various bike and implemented React, React Router, Firebase, NodJS and Express JS.",
     tags: [
       {
         name: "ReactJS",
