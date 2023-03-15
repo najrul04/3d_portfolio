@@ -7,7 +7,6 @@ import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-
 const ProjectCard = ({
   index,
   name,
@@ -20,7 +19,11 @@ const ProjectCard = ({
   
  useEffect(() => {
     AOS.init({
-      duration: 1500,
+      duration: 1500,  
+      delay: 500,
+      easing: 'ease-out',
+      once: true,
+      mirror: false,
     });
   }, [])
 
