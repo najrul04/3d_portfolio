@@ -174,11 +174,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "RapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "React Router",
+        name: "Material UI",
         color: "pink-text-gradient",
       },
     ],
@@ -211,7 +211,7 @@ const projects = [
   {
     name: "Pizza Order",
     description:
-      "A website that has the functionality of Log In and Sign Up. You can also make new order and delete the previous order as it is needed.",
+      "A website that has the functionality of Log In and Sign Up using Firebase. You can also make new order and delete the previous order as it is needed.",
     tags: [
       {
         name: "ReactJS",
