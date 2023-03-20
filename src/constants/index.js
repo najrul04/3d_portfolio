@@ -165,7 +165,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Gym",
+    name: "Fitness World",
     description:
       "Fitness website that has the access over 10,000 workout and youtube videos that can be beneficial for the user. Rapid API is used to derive the data.",
     tags: [
