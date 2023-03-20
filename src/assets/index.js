@@ -27,6 +27,7 @@ import vectorDesign from "./company/vectorDesign.jpg";
 import bike from "./bike.gif";
 import ecommerce from "./ecommerce.gif";
 import game from "./game.gif";
+import gym from "./gym.gif";
 import hospital from "./hospital.gif";
 import pizza from "./pizza.gif";
 
@@ -56,6 +57,7 @@ export {
   invent,
   vectorDesign,
   ecommerce,
+  gym,
   game,
   pizza,
   hospital,

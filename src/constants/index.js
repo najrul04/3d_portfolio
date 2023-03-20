@@ -1,4 +1,4 @@
-import { bike, css, ecommerce, figma, game, git, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
+import { bike, css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
 
 export const navLinks = [
   {
@@ -165,9 +165,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ecommerce (Demo)",
+    name: "Gym",
     description:
-      "Ecommerce website that allows user to click and select particular product on order. It is also deletable and the price with shipping tax cost included to the Grand Total.",
+      "Fitness website that has the access over 10,000 workout and youtube videos that can be beneficial for the user. Rapid API is used to derive the data.",
     tags: [
       {
         name: "ReactJS",
@@ -182,9 +182,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ecommerce,
-    source_code_link: "https://github.com/najrul04/firebase_recap/tree/main/ECommerce-with-router",
-    website_link: "https://ecommerce-79009.firebaseapp.com/"
+    image: gym,
+    source_code_link: "https://github.com/najrul04/gym_fitness",
+    website_link: "https://web-fitness.netlify.app/"
   },
   {
     name: "Game Info",
@@ -273,7 +273,29 @@ const projects = [
     image: bike,
     source_code_link: "https://github.com/najrul04/bike-website-client-side",
     website_link: "https://best-bike.web.app/"
-  }
+  },
+  {
+    name: "Shopping",
+    description:
+      "Ecommerce website that allows user to click and select particular product on order. It is also deletable and the price with shipping tax cost included to the Grand Total.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Router",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/najrul04/firebase_recap/tree/main/ECommerce-with-router",
+    website_link: "https://ecommerce-79009.firebaseapp.com/"
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
