@@ -1,4 +1,4 @@
-import { bike, css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
+import { css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, real_estate, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
 
 export const navLinks = [
   {
@@ -187,6 +187,28 @@ const projects = [
     website_link: "https://web-fitness.netlify.app/"
   },
   {
+    name: "Real Estate",
+    description:
+      "Real Estate website to find suitable house to buy or rent throughout the world in your wanted pricing and place. Sorting option is implemented as the user needs.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ChakraUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RapidAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: real_estate,
+    source_code_link: "https://github.com/najrul04/real_estate",
+    website_link: "https://real-estate-zeta-lemon.vercel.app/"
+  },
+  {
     name: "Game Info",
     description:
       "Web application that informs about the most successive and famous games around the world where you also can log in and sign up to have more access.",
@@ -251,28 +273,6 @@ const projects = [
     image: hospital,
     source_code_link: "https://github.com/najrul04/healthcare-website",
     website_link: "https://gen-hospital.netlify.app/"
-  },
-  {
-    name: "Bike",
-    description:
-      "MERN Stack website that is consist of the information of various bike and implemented React, React Router, Firebase, NodJS and Express JS.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express JS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bike,
-    source_code_link: "https://github.com/najrul04/bike-website-client-side",
-    website_link: "https://best-bike.web.app/"
   },
   {
     name: "Shopping",

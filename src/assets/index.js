@@ -24,12 +24,12 @@ import invent from "./company/invent.jpg";
 import phero from "./company/phero.jpg";
 import vectorDesign from "./company/vectorDesign.jpg";
 
-import bike from "./bike.gif";
 import ecommerce from "./ecommerce.gif";
 import game from "./game.gif";
 import gym from "./gym.gif";
 import hospital from "./hospital.gif";
 import pizza from "./pizza.gif";
+import real_estate from "./real_estate.gif";
 
 
 export {
@@ -61,6 +61,6 @@ export {
   game,
   pizza,
   hospital,
-  bike
+  real_estate
 };
 
