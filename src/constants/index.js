@@ -141,12 +141,12 @@ const testimonials = [
       "Very approachable and delivers the work reliably within the timelines maintaining good quality.",
     name: "Shameh Rahman",
     designation: "EIT",
-    company: "Syska Hennessy Group",
+    company: "Syska Hennessy Group, USA",
     image: "https://media.licdn.com/dms/image/C4E03AQFdzHieupTttQ/profile-displayphoto-shrink_800_800/0/1624848801592?e=1684368000&v=beta&t=kWDiQ2iEc9QYQI3OPrJCTxMc_A15C2lY2B77k_dyWuA",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Najrul does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -157,7 +157,7 @@ const testimonials = [
       "Extremely informative, attentive, and knowledgeable. Also very fast and thorough with his work!",
     name: "Safwan Rahman",
     designation: "MLS ",
-    company: "Mount Sinai Health System",
+    company: "Mount Sinai Health System, USA",
     image: "https://media.licdn.com/dms/image/C4E03AQEpbw3llaiQlA/profile-displayphoto-shrink_200_200/0/1517454841060?e=1684368000&v=beta&t=2DP3NQfJAuUM6O9l7LSbUxvO_K6IvIyZC-9ieqH7K_A",
   },
   
