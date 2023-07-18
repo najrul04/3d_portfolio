@@ -142,11 +142,11 @@ const testimonials = [
     name: "Shameh Rahman",
     designation: "EIT",
     company: "Syska Hennessy Group, USA",
-    image: "https://media.licdn.com/dms/image/C4E03AQFdzHieupTttQ/profile-displayphoto-shrink_800_800/0/1624848801592?e=1684368000&v=beta&t=kWDiQ2iEc9QYQI3OPrJCTxMc_A15C2lY2B77k_dyWuA",
+    image: "https://media.licdn.com/dms/image/C4E03AQFdzHieupTttQ/profile-displayphoto-shrink_800_800/0/1624848801592?e=1695254400&v=beta&t=cW_Vd6b0GTy7r5SubieuOn7Ok_qSAzzc6aRmOBedpOQ",
   },
-  {
+  { 
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Najrul does.",
+      "I've never met a web developer who truly cares about their clients' success like Najrul  does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -158,7 +158,7 @@ const testimonials = [
     name: "Safwan Rahman",
     designation: "MLS ",
     company: "Mount Sinai Health System, USA",
-    image: "https://media.licdn.com/dms/image/C4E03AQEpbw3llaiQlA/profile-displayphoto-shrink_200_200/0/1517454841060?e=1684368000&v=beta&t=2DP3NQfJAuUM6O9l7LSbUxvO_K6IvIyZC-9ieqH7K_A",
+    image: "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/245133366_10219298557830790_5674629430154131170_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEeUiaEAFIg-4-DOh1dt8gvKS7_zg3gnDkpLv_ODeCcOaRQZS5igEJmPSIMO6G91aQB6xcxU-sNohOGZC36KgJ8&_nc_ohc=Xu3o6WOkutYAX_cupt2&_nc_ht=scontent.fdac11-1.fna&oh=00_AfDYj5XBTjsg2iF6W07XQJQdFXwZ4aYxB5mKjejqMEmVbQ&oe=64BA8682",
   },
   
 ];
@@ -298,5 +298,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
 
