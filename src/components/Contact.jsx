@@ -129,7 +129,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
           <div className="flex justify-center ">
-          <a className="mx-2 text-2xl hover:bg-cyan-400" href="https://www.linkedin.com/in/najrul-islam/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+          <a className="mx-2 text-2xl hover:bg-cyan-400" href="https://www.linkedin.com/in/najrul04/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
 
         <a className="mx-2 text-2xl hover:bg-stone-700 rounded-lg" href="https://github.com/najrul04" target="_blank" rel="noreferrer"><BsGithub/></a>
         
