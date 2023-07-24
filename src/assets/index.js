@@ -31,36 +31,13 @@ import hospital from "./hospital.gif";
 import pizza from "./pizza.gif";
 import real_estate from "./real_estate.gif";
 
+import client3 from "./safwan.jpg";
+import client1 from "./shameh.jpg";
+
 
 export {
-  logo,
-  wordpress,
-  react,
-  github,
-  menu,
-  close,
-  css,
-  web,
-  nextjs,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  phero,
-  invent,
-  vectorDesign,
-  ecommerce,
-  gym,
-  game,
-  pizza,
-  hospital,
-  real_estate
+  client1, client3, close,
+  css, ecommerce, figma, game, git, github, gym, hospital, html, invent, javascript, logo, menu, mongodb, nextjs, nodejs, phero, pizza, react, reactjs, real_estate, redux,
+  tailwind, threejs, typescript, vectorDesign, web, wordpress
 };
 

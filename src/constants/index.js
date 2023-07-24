@@ -1,4 +1,4 @@
-import { css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, real_estate, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
+import { client1, client3, css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, real_estate, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
 
 export const navLinks = [
   {
@@ -142,7 +142,7 @@ const testimonials = [
     name: "Shameh Rahman",
     designation: "EIT",
     company: "Syska Hennessy Group, USA",
-    image: "https://media.licdn.com/dms/image/C4E03AQFdzHieupTttQ/profile-displayphoto-shrink_800_800/0/1624848801592?e=1695254400&v=beta&t=cW_Vd6b0GTy7r5SubieuOn7Ok_qSAzzc6aRmOBedpOQ",
+    image: client1,
   },
   { 
     testimonial:
@@ -158,7 +158,7 @@ const testimonials = [
     name: "Safwan Rahman",
     designation: "MLS ",
     company: "Mount Sinai Health System, USA",
-    image: "https://scontent.fdac11-1.fna.fbcdn.net/v/t39.30808-6/245133366_10219298557830790_5674629430154131170_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEeUiaEAFIg-4-DOh1dt8gvKS7_zg3gnDkpLv_ODeCcOaRQZS5igEJmPSIMO6G91aQB6xcxU-sNohOGZC36KgJ8&_nc_ohc=Xu3o6WOkutYAX_cupt2&_nc_ht=scontent.fdac11-1.fna&oh=00_AfDYj5XBTjsg2iF6W07XQJQdFXwZ4aYxB5mKjejqMEmVbQ&oe=64BA8682",
+    image: client3,
   },
   
 ];
