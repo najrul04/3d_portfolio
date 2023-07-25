@@ -77,6 +77,9 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <a href='https://drive.google.com/file/d/1S9_FpmQJhcU631RV54kXtw4rHePpdXOi/view?usp=share_link' target="_blank" className="text-secondary text-[18px] font-medium font-bold hover:text-white">
+            Resume
+          </a>
             </ul>
           </div>
               
