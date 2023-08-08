@@ -1,4 +1,4 @@
-import { client1, client3, css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, real_estate, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
+import { client1, client3, css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, real_estate, redux, resume, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
 
 export const navLinks = [
   {
@@ -20,6 +20,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    re: resume,
+    title: "Resume"
   },
 ];
 
@@ -138,7 +142,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Very approachable and delivers the work reliably within the timelines maintaining good quality.",
+      "Very approachable and delivers the work reliably within the timelines maintaining very very good quality.",
     name: "Shameh Rahman",
     designation: "EIT",
     company: "Syska Hennessy Group, USA",
