@@ -1,4 +1,4 @@
-import { client1, client3, css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, real_estate, redux, resume, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
+import { client1, client3, css, ecommerce, figma, game, git, gym, hospital, html, invent, javascript, mongodb, nextjs, nodejs, phero, pizza, reactjs, real_estate, redux, tailwind, threejs, typescript, vectorDesign, wordpress } from "../assets";
 
 export const navLinks = [
   {
@@ -20,11 +20,7 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-  {
-    re: resume,
-    title: "Resume"
-  },
+  }
 ];
 
 const services = [
